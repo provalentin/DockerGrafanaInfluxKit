@@ -5,3 +5,23 @@ Lightweight docker compose to spin up Grafana and Influx for metrics collection 
 
 Link to the related article: 
 https://www.blazemeter.com/blog/how-to-create-a-lightweight-performance-monitoring-solution-with-docker-grafana-and-influxdb
+
+
+docker-compose down
+
+docker-compose build
+
+docker-compose up -d
+
+docker ps
+
+docker exec -it 827cbea30758 influx
+
+>SHOW databases
+…..
+>USE graphite
+…..
+>SHOW series
+
+
+open graphana dashboard at http://localhost:3000
